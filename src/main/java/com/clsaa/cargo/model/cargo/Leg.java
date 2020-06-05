@@ -5,7 +5,7 @@ import com.clsaa.cargo.annotation.ValueObject;
 
 import java.util.Date;
 
-@AggregatePart
+@AggregatePart(root = Itinerary.class)
 @ValueObject
 public class Leg {
     private Date loadTime;

@@ -2,9 +2,6 @@ package com.clsaa.cargo.annotation;
 
 
 
-
-import casestudy.DefaultRoot;
-
 import java.lang.annotation.*;
 
 @Documented

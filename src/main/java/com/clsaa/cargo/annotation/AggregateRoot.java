@@ -6,5 +6,4 @@ import java.lang.annotation.*;
 @Target({ElementType.TYPE, ElementType.ANNOTATION_TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface AggregateRoot {
-    String type() default "";
 }

@@ -1,7 +1,6 @@
 package com.clsaa.cargo.annotation;
 
 
-import casestudy.DefaultRoot;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

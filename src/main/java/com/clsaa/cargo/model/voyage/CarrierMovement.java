@@ -7,7 +7,7 @@ import com.clsaa.cargo.model.location.LocationService;
 
 import java.util.Date;
 
-@AggregatePart
+@AggregatePart(root = Voyage.class)
 @ValueObject
 public class CarrierMovement {
     private Location departureLocation;

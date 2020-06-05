@@ -6,7 +6,7 @@ import com.clsaa.cargo.model.voyage.CarrierMovement;
 
 import java.util.Date;
 
-@AggregatePart
+@AggregatePart(root = Cargo.class)
 @Entity
 public class HandlingEvent {
     private Date completionTime;
