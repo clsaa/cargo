@@ -7,7 +7,7 @@ import com.clsaa.cargo.model.location.LocationShared;
 import java.util.Date;
 
 @AggregatePart(root = Cargo.class)
-@ValueObject
+@ValueObject(root = Cargo.class)
 public class DeliverySpecification {
     private Date arrivalDeadline;
     private LocationShared locationShared;

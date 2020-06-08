@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.List;
 
 @AggregatePart(root = Cargo.class)
-@Entity
+@Entity(root = Cargo.class)
 public class DeliveryHistory {
     private List<HandlingEvent> handlingEvents;
     private Cargo cargo;

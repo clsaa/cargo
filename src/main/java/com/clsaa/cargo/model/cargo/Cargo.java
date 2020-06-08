@@ -5,7 +5,7 @@ import com.clsaa.cargo.annotation.Entity;
 import com.clsaa.cargo.model.customer.CustomerRepository;
 
 @AggregateRoot
-@Entity
+@Entity(root = Cargo.class)
 public class Cargo {
     private String trackingId;
     private DeliverySpecification deliverySpecification;
