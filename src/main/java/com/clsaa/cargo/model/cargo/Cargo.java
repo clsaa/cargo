@@ -10,6 +10,7 @@ public class Cargo {
     private String trackingId;
     private DeliverySpecification deliverySpecification;
     private Itinerary itinerary;
+    private DeliveryHistory deliveryHistory;
 
     public Cargo(CustomerRepository customerRepository) {
 
