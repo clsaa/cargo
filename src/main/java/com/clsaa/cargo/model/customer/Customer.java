@@ -1,10 +1,12 @@
 package com.clsaa.cargo.model.customer;
 
+import com.clsaa.cargo.annotation.DefinesIdentity;
 import com.clsaa.cargo.annotation.Entity;
 
 @Entity
 public class Customer {
     private String name;
+    @DefinesIdentity
     private String customerId;
 
     public String getName() {
