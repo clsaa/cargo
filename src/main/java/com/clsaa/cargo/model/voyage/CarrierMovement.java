@@ -1,14 +1,14 @@
 package com.clsaa.cargo.model.voyage;
 
-import com.clsaa.cargo.annotation.AggregatePart;
-import com.clsaa.cargo.annotation.ValueObject;
+import com.clsaa.cargo.annotation.AggregateRoot;
+import com.clsaa.cargo.annotation.Entity;
 import com.clsaa.cargo.model.location.Location;
 import com.clsaa.cargo.model.location.LocationService;
 
 import java.util.Date;
 
-@AggregatePart(root = Voyage.class)
-@ValueObject(root = Voyage.class)
+@AggregateRoot
+@Entity(root = CarrierMovement.class)
 public class CarrierMovement {
     private Location departureLocation;
     private Location arrivalLocation;
