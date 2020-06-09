@@ -16,6 +16,27 @@ CTS领域模型如图所示。下图展示了对 CTS 需求领域建模得到的
 
 ### 各限界上下文PIM和CIM
 
-以 Cargo 限界上下文为例，基于 C2MD 工具，Cargo 限界上下文 的代码实现 被自动化地转换为 图 12 所示的 Cargo 领域模型 。对比图 12 和图 10 的 Cargo 限界上下文部分， 不难发现 两个领域模型具有一致的结构， 包括相同的领域类和类间关 联。 代码实现中每个被注解修饰的领域类都被 转换为 领域模型中的一个类， 并且每个领域类的代码注解和领 域模型 中领域类的 构造型之 间具有一致性。 这说明了在本次迭代中， 代码实现严格地遵循领域建模，与领域 模型具有一致性。 然而，值得注意的是， 这并不意味着代码到模型转换的无意义。 事实上，实际软件开发中 转换得到的领域模型和初始领域模型可能并不一致， 这本质上是由代码实现和初始领域模型不一致造成的。 而代码实现与初始领域模型的不一致可能 来自开发人员对初始领域模型的理解偏差，也可能 由于开发人员认 识到初始领域模型在具体实现时的不适用。 通过对比转换得到的领域模型和初始领域模型，减小了知识消化 的认知复杂度，使其不涉及代码实现细节。
+#### cargo
 
-![](https://markdown-img-bed-common.oss-cn-hangzhou.aliyuncs.com/2020-06-09-085444.jpg)
+![](https://markdown-img-bed-common.oss-cn-hangzhou.aliyuncs.com/2020-06-09-123220.png)
+
+![](https://markdown-img-bed-common.oss-cn-hangzhou.aliyuncs.com/2020-06-09-123228.png)
+
+#### customer
+
+![](https://markdown-img-bed-common.oss-cn-hangzhou.aliyuncs.com/2020-06-09-123246.png)
+
+![](https://markdown-img-bed-common.oss-cn-hangzhou.aliyuncs.com/2020-06-09-123255.png)
+
+#### location
+
+![](https://markdown-img-bed-common.oss-cn-hangzhou.aliyuncs.com/2020-06-09-123309.png)
+
+![](https://markdown-img-bed-common.oss-cn-hangzhou.aliyuncs.com/2020-06-09-123318.png)
+
+
+#### voyage
+
+![](https://markdown-img-bed-common.oss-cn-hangzhou.aliyuncs.com/2020-06-09-123416.png)
+
+![](https://markdown-img-bed-common.oss-cn-hangzhou.aliyuncs.com/2020-06-09-123425.png)
