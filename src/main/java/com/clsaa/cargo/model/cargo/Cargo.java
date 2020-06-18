@@ -14,7 +14,4 @@ public class Cargo {
     private Itinerary itinerary;
     private DeliveryHistory deliveryHistory;
 
-    public Cargo(CustomerRepository customerRepository) {
-
-    }
 }
