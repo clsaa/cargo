@@ -9,4 +9,6 @@ public interface CustomerRepository {
     List<Customer> findByName(String name);
 
     Customer findByCustomerId(String id);
+
+    Customer findByCargoTrackingID(String trackingID);
 }
