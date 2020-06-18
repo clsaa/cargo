@@ -11,4 +11,6 @@ public interface CustomerRepository {
     Customer findByCustomerId(String id);
 
     Customer findByCargoTrackingID(String trackingID);
+
+    CustomerShare findShareByCargoTrackingID(String trackingID);
 }

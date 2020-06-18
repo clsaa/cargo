@@ -17,7 +17,6 @@ public class Cargo {
     private DeliveryHistory deliveryHistory;
 
     public CustomerShare getCustomerShare(CustomerRepository customerRepository, String trackingID) {
-        final Customer customer = customerRepository.findByCargoTrackingID(trackingID);
-        return new CustomerShare(customer);
+        return customerRepository.findShareByCargoTrackingID(trackingID);
     }
 }
