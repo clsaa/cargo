@@ -10,7 +10,6 @@ import java.util.List;
 @Entity(root = Itinerary.class)
 public class Itinerary {
     @DefinesIdentity
-    private String id;
     private String itineraryNumber;
     private List<Leg> legs;
 }
