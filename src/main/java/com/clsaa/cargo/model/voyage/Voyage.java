@@ -8,7 +8,6 @@ import com.clsaa.cargo.annotation.Entity;
 @Entity(root = Voyage.class)
 public class Voyage {
     @DefinesIdentity
-    private String id;
     private String voyageNumber;
     private CarrierMovement carrierMovement;
 }
